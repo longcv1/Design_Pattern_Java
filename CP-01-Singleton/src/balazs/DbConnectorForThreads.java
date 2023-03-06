@@ -8,5 +8,5 @@ public enum DbConnectorForThreads {
 	
 	public void closeConnection() {
 		System.out.println("Close Connection DB for threads");
-	}
+	} 
 }

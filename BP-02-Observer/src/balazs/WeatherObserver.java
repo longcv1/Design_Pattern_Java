@@ -21,6 +21,6 @@ public class WeatherObserver implements Observer {
 	}
 
 	private void showData() {
-		System.out.println("Update OK");
+		System.out.println("Press: " + pressure + ", Tem: " + temprature + ", Hum: " + humidity);
 	}
 }
